@@ -4,7 +4,6 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css?family=Pacifico|Raleway:300,700");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -6282,61 +6281,3 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
-
-.f90 {
-  font-size: 5rem; }
-
-.f60 {
-  font-size: 3.75rem; }
-
-.f50 {
-  font-size: 3.125rem; }
-
-.f40 {
-  font-size: 2.5rem; }
-
-.f32 {
-  font-size: 2rem; }
-
-.f24 {
-  font-size: 1.5rem; }
-
-.f20 {
-  font-size: 1.25rem; }
-
-.f17 {
-  font-size: 1.0625rem; }
-
-.f16 {
-  font-size: 1rem; }
-
-.f15 {
-  font-size: 0.9375rem; }
-
-.f13 {
-  font-size: 0.8125rem; }
-
-.black-font-color {
-  color: #262626; }
-
-.font-pacifico {
-  font-family: 'Pacifico', cursive; }
-
-.font-raleway {
-  font-family: 'Raleway', sans-serif; }
-
-*,
-html,
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
-.header {
-  background: #fafafc url("../../images/header-bg.jpg") no-repeat fixed top right;
-  min-height: 100vh; }
-  .header a {
-    border-top: 3px solid transparent; }
-    .header a:hover {
-      border-top: 3px solid #ff6033;
-      color: #262626; }

@@ -1,0 +1,11 @@
+.header {
+    background: #fafafc url('../../images/header-bg.jpg') no-repeat fixed top right;
+    min-height: 100vh;
+    a {
+        border-top: 3px solid transparent;
+        &:hover {
+            border-top: 3px solid $orange-border-color;
+            color: $black-font-color;
+        }
+    }
+}

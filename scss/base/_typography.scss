@@ -43,15 +43,16 @@
     font-size: 0.8125rem;
 }
 
-//custom font weight classes
-.w300 {
-    font-weight: 300;
+// custom font colors
+.black-font-color {
+    color: rgb(38, 38, 38);
 }
 
-.w400 {
-    font-weight: 400;
+// custom font families
+.font-pacifico {
+    font-family: 'Pacifico', cursive;
 }
 
-.w700 {
-    font-weight: 700;
+.font-raleway {
+    font-family: 'Raleway', sans-serif;
 }
