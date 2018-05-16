@@ -1,1 +1,16 @@
-.header {}
+.header {
+    background: #fafafc url('../../images/header-bg.jpg') no-repeat scroll right top;
+    min-height: 1000px;
+    .header-content {
+        padding-top: 30%;
+    }
+    button {
+        background-color: $orange-background-color;
+        &:hover {
+            background-color: $orange-background-color;
+        }
+        &:active {
+            background-color: $orange-background-color!important;
+        }
+    }
+}

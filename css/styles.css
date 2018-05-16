@@ -6319,11 +6319,43 @@ a.text-dark:hover, a.text-dark:focus {
 .black-font-color {
   color: #262626; }
 
+.white-font-color {
+  color: white; }
+
 .font-pacifico {
   font-family: 'Pacifico', cursive; }
 
 .font-raleway {
   font-family: 'Raleway', sans-serif; }
+
+.pt-2-custom {
+  padding-top: 2rem; }
+
+.pr-2-custom {
+  padding-right: 2rem; }
+
+.pb-2-custom {
+  padding-bottom: 2rem; }
+
+.pl-2-custom {
+  padding-left: 2rem; }
+
+.custom-button {
+  box-shadow: 2px 10px 9px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 0 !important;
+  font-family: "Raleway", sans-serif !important;
+  color: white !important;
+  border: none !important; }
+  .custom-button:hover {
+    box-shadow: 2px 10px 9px rgba(0, 0, 0, 0.2) !important;
+    border: none !important;
+    outline: none !important; }
+  .custom-button:active {
+    box-shadow: 4px 12px 11px rgba(0, 0, 0, 0.2) !important;
+    outline: none !important;
+    border: none !important;
+    margin-left: 2px;
+    margin-top: 2px; }
 
 *,
 html,
@@ -6332,11 +6364,49 @@ body {
   padding: 0;
   box-sizing: border-box; }
 
-.header {
-  background: #fafafc url("../../images/header-bg.jpg") no-repeat fixed top right;
+.header a {
+  border-top: 3px solid transparent; }
+  .header a:hover {
+    border-top: 3px solid #ff6033;
+    color: #262626; }
+
+.about {
+  background: #00b0b0 url("../../images/cup.png") no-repeat scroll left center;
+  height: 700px; }
+
+.services {
+  height: 790px;
+  background: #70bfff url("../../images/tomato.png") no-repeat scroll calc(80%) center; }
+  .services .row .table {
+    box-shadow: 2px 10px 9px rgba(0, 0, 0, 0.2); }
+    .services .row .table tr {
+      height: 100px; }
+      .services .row .table tr td {
+        background-color: white;
+        height: 100px;
+        padding: 0;
+        vertical-align: middle; }
+        .services .row .table tr td:last-child {
+          border-left: 1px solid black; }
+
+.blog {
   min-height: 100vh; }
-  .header a {
-    border-top: 3px solid transparent; }
-    .header a:hover {
-      border-top: 3px solid #ff6033;
-      color: #262626; }
+
+.contact {
+  min-height: 100vh; }
+
+.gallery {
+  height: 1536px;
+  background-color: #ffe92f; }
+
+.header {
+  background: #fafafc url("../../images/header-bg.jpg") no-repeat scroll right top;
+  min-height: 1000px; }
+  .header .header-content {
+    padding-top: 30%; }
+  .header button {
+    background-color: #ff6033; }
+    .header button:hover {
+      background-color: #ff6033; }
+    .header button:active {
+      background-color: #ff6033 !important; }
